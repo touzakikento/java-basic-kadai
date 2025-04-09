@@ -27,7 +27,7 @@ public class Car_Chapter15 {
                 break;
         }
         System.out.println("ギア"+this.gear+"から"+afterGear+"に切り替えました");
-        
+        this.gear = afterGear;
     }
 
     // 走行メソッド（速度を表示）
